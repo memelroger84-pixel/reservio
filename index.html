@@ -9,6 +9,40 @@
   <style>
     * { box-sizing: border-box; }
     body {
+      <section id="espace-professionnel" style="background:white;padding:20px;margin:20px auto;max-width:650px;border-radius:14px;">
+  <h2>Espace professionnel</h2>
+  <h3>Créer mon compte</h3>
+
+  <form id="inscriptionForm">
+    <label>Nom de l'établissement</label>
+    <input id="nomEtablissement" type="text" required>
+
+    <label>Adresse e-mail</label>
+    <input id="emailPro" type="email" required>
+
+    <label>Mot de passe</label>
+    <input id="motDePassePro" type="password" minlength="8" required>
+
+    <button type="submit">Créer mon compte</button>
+  </form>
+
+  <div id="messagePro"></div>
+</section>
+     <section id="connexion-professionnel" style="background:white;padding:20px;margin:20px auto;max-width:650px;border-radius:14px;">
+  <h3>Déjà professionnel ? Connectez-vous</h3>
+
+  <form id="connexionForm">
+    <label>Adresse e-mail</label>
+    <input id="emailConnexion" type="email" required>
+
+    <label>Mot de passe</label>
+    <input id="motDePasseConnexion" type="password" required>
+
+    <button type="submit">Se connecter</button>
+  </form>
+
+  <div id="messageConnexion"></div>
+</section> 
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f6fb;
