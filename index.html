@@ -119,5 +119,12 @@
         "Votre demande est prête ! La connexion au système de réservation sera ajoutée ensuite.";
     });
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+  window.reservioSupabase = window.supabase.createClient(
+    "https://bhxckogxczxsgudisicl.supabase.co",
+    "sb_publishable_VqBhqsgRSGX9KI9GeoJarQ_cMajVK1Q"
+  );
+</script>
 </body>
 </html>
